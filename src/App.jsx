@@ -12,12 +12,12 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-            <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/generate" element={<Generate />} />
-            <Route path="/verify" element={<Verify />} />
-            {/* <Route path="/download" element={<Download />} /> */}
-            </Routes>
+          <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/generate" element={<Generate />} />
+          <Route path="/verify" element={<Verify />} />
+          {/* <Route path="/download" element={<Download />} /> */}
+          </Routes>
       </BrowserRouter>
     </>
   );
