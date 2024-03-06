@@ -18,6 +18,7 @@ function App() {
           <Route path="/verify" element={<Verify />} />
           {/* <Route path="/download" element={<Download />} /> */}
           </Routes>
+          
       </BrowserRouter>
     </>
   );

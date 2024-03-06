@@ -1,7 +1,7 @@
 
 .navbar {
   /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-  background-color: #0261cc;
+  
   height: 60px;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@
 }
 
 .navbar-brand {
-  color: #fff;
+  color: rgb(255, 166, 0);
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -28,10 +28,12 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  font-family: 'Poppins';
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand:hover{
-  color: black;
+  color: grey;
 }
 
 .nav-item {
@@ -39,13 +41,14 @@
 }
 
 .nav-links {
-  color: white;
+  color: rgb(244, 149, 72);
   text-decoration: none;
+  font-family: 'Poppins';
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .nav-links:hover {
-  color: black;
-  text-decoration:underline;
+  color: grey;
 }
 
 .navbar-nav{
